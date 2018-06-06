@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   obstacleRange: 5
+  fireballPrefab: {fileID: 1766296109505184, guid: 410978996f3524fd2900639956a67063,
+    type: 2}
 --- !u!114 &114978585163878676
 MonoBehaviour:
   m_ObjectHideFlags: 1
