@@ -18,6 +18,7 @@ public class ReactiveTarget : MonoBehaviour {
         yield return new WaitForSeconds(1.5f);
 
         Destroy(this.gameObject);
+        Debug.Log(this.gameObject.GetInstanceID());
     }
 
 }
